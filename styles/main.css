@@ -1,7 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-
 }
 
 header {
@@ -69,20 +68,33 @@ main {
 }
 
 footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     background-color: black;
-    padding: 0em;
     color: white;
 }
 
+footer p {
+    text-align: center;
+}
+
+#social-media {
+    text-align: center;
+}
+
 footer img {
+    margin-bottom: 1px;
     width: 2em;
-    padding: 3px;
+    padding: 0px;
     vertical-align: middle;
 }
 
 #insta{
-    display: block;
+    margin-bottom: 1.2px;
+    width: 1.7em;  
+    padding: 3px;
     background-color: white;
     border-radius: .5em;
-    float: left;
 }
