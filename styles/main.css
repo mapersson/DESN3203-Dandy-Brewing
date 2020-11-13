@@ -64,14 +64,13 @@ header {
 
 main {
     clear: both;
-    padding: 0em 1em;
+    padding: 3em 1em;
 }
 
 footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
+    position: static;
     width: 100%;
+    padding: 1em;
     background-color: black;
     color: white;
     text-align: center;
