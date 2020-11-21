@@ -1,0 +1,14 @@
+main.beer-list {
+    text-align: center;
+}
+
+#seasonal-releases {
+    background-image: url(../images/baltusvantassel.jpg);
+    background-position: center;
+    filter: grayscale();
+    padding-top: 3em;
+    padding-bottom: 3em;
+    text-align: center;
+    font-size: 250%;
+    color: white;
+}
