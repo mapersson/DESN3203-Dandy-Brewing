@@ -4,7 +4,7 @@ body {
 }
 
 header {
-    padding: 0em 0.75em 1em;
+    padding: 0em;
     border-bottom: 3px solid black;
     margin-bottom:  0;
     
@@ -30,6 +30,7 @@ header {
     list-style: none;
     text-align: right;
     padding: 1em 1em;
+    margin: 0em;
 }
     
 #nav-menu li {
