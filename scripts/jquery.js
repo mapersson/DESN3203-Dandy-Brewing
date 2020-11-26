@@ -3,7 +3,6 @@ $(function () {
     $("#footer-html").load("footer.html");
 
     currentLoc = location.pathname.split("/").slice(-1)[0];
-    alert(currentLoc);
 
     setTimeout(function () {
         var list = document.getElementById("header-background");
@@ -13,6 +12,6 @@ $(function () {
                 $(this).addClass("current");
             }
         });
-    }, 300);
+    }, 100);
 
 });
