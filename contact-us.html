@@ -10,8 +10,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/normalize.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin="" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js">
+    </script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
     <script src="scripts/jquery.js"></script>
+    <script src="scripts/map.js"></script>
 </head>
 
 <body>
@@ -25,6 +33,8 @@
         <section>
             <h2>The Dandy Brewing Company</h2>
             <h3>2003 11<sup>th</sup> Street SE, Calgary, AB.</h3>
+            <div id="mapid">
+            </div>
             <p>Please note, at this time, due to our limited space, we do not take reservations, nor do we book private
                 tours in the tasting room.</p>
         </section>
